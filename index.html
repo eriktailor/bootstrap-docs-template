@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Documentation | Bootstrap 5</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-okaidia.min.css">
+  <script type="module" crossorigin src="./assets/index-74c5c5b5.js"></script>
+  <link rel="stylesheet" href="./assets/index-af837dc8.css">
+</head>
+
+<body>
+
+    <div class="loader" id="docsLoader" role="status">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <nav class="docs-navbar d-lg-none bg-white sticky-top" id="docsNavbar">
+        <div class="container-md d-flex align-items-center justify-content-between h-100">
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img class="me-2" src="./assets/bootstrap-logo-shadow-a48599e1.png" alt="Bootstrap Logo" width="40px" height="33px">
+                <h5 class="mb-0">Docs Template</h5>
+            </a>
+            <button class="btn border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#docsSidebar" aria-controls="docsSidebar">
+                <i class="uil uil-subject fs-1 lh-sm"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="d-flex">
+        <aside class="docs-sidebar offcanvas-lg offcanvas-start vh-100 bg-white d-flex flex-column" id="docsSidebar">
+            <div class="offcanvas-header d-flex">
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <img class="me-2" src="./assets/bootstrap-logo-shadow-a48599e1.png" alt="Bootstrap Logo" width="40px" height="33px">
+                    <h5 class="mb-0">Docs Template</h5>
+                </a>
+                <button class="btn-close d-md-none me-1 opacity-25" type="button" data-bs-dismiss="offcanvas" data-bs-target="#docsSidebar" aria-label="Close Sidebar"></button>
+            </div>
+            <div class="offcanvas-body flex-grow-1 p-3">
+                <nav class="docs-nav w-100" id="docsMenu">
+                    <ul class="nav flex-column"></ul>
+                </nav>
+            </div>
+            <div class="offcanvas-footer p-3">
+                <a class="btn btn-primary w-100" href="https://eriktailor.hu" target="_blank">Visit my website</a>
+            </div>
+        </aside>
+
+        <main class="docs-content position-relative w-100">
+
+            <svg class="bg-gradient-bulb-left position-fixed top-0" width="655px" height="1025px" viewBox="0 0 655 1025" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <rect id="path-rtd5uzew3f-1" x="0" y="0" width="655" height="1025"></rect>
+                    <radialGradient cx="50%" cy="53.2372883%" fx="50%" fy="53.2372883%" r="44.5431888%" id="radialGradient-rtd5uzew3f-3">
+                        <stop stop-color="#7C12F8" offset="0%"></stop>
+                        <stop stop-color="#7C12F8" stop-opacity="0" offset="100%"></stop>
+                    </radialGradient>
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Desktop-HD" transform="translate(-300.000000, 0.000000)">
+                        <g id="Oval" transform="translate(300.000000, 0.000000)">
+                            <mask id="mask-rtd5uzew3f-2" fill="white">
+                                <use xlink:href="#path-rtd5uzew3f-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <circle fill-opacity="0.14" fill="url(#radialGradient-rtd5uzew3f-3)" mask="url(#mask-rtd5uzew3f-2)" cx="-101.5" cy="227.5" r="470"></circle>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+            <div class="container-md col-lg-10 col-xl-8 col-xxl-6" data-bs-spy="scroll" data-bs-target="#docsMenu" data-bs-smooth-scroll="true" data-bs-root-margin="0px 0px -70%" tabindex="0">
+                <header class="section" id="docsHeader">
+                    <h1 class="mt-2 mt-sm-5 mb-3">Documentation template with Bootstrap 5 and Vite.js</h1>
+                    <div>
+                        <div class="form-group position-relative p-0 mb-3">
+                            <input class="form-control z-1" id="docsSearch" type="text" placeholder="Type to search in docs..." aria-label="Search in documentation">
+                            <i class="uil uil-search text-muted opacity-75 fs-5 position-absolute end-0 top-0 z-2 mt-2 me-3"></i>
+                        </div>
+                        <div class="list-group" id="searchResults"></div>
+                    </div>
+                </header>
+
+                <section id="introduction">
+                    <div>
+                        <h2>Introduction</h2>
+                        <p class="lead mb-4">This is a beautifully crafted free documentation UI kit template with a modern sleek design, built on Bootstrap 5 and Vite. You are welcome to download it and easily customize for your needs.</p>
+                        <div class="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
+                            <div class="col">
+                                <div class="card h-100 p-3 p-sm-4">
+                                    <div class="d-flex align-items-center justify-content-center bg-primary-subtle rounded-circle w-50px h-50px mb-3">
+                                        <i class="uil uil-html5-alt text-primary lh-sm fs-4"></i>
+                                    </div>
+                                    <h4>Semantic html5 code</h4>
+                                    <p class="mb-0">The source code is valid html5 and it is well organized.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-3 p-sm-4">
+                                    <div class="d-flex align-items-center justify-content-center bg-primary-subtle rounded-circle w-50px h-50px mb-3">
+                                        <i class="uil uil-search-plus text-primary lh-sm fs-4"></i>
+                                    </div>
+                                    <h4>Dynamic search field</h4>
+                                    <p class="mb-0">Search any text content's parent section with live search.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-3 p-sm-4">
+                                    <div class="d-flex align-items-center justify-content-center bg-primary-subtle rounded-circle w-50px h-50px mb-3">
+                                        <i class="uil uil-browser ablet text-primary lh-sm fs-4"></i>
+                                    </div>
+                                    <h4>Mobile friendly layout</h4>
+                                    <p class="mb-0">The template is 100% responsive, looks great on every device.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-3 p-sm-4">
+                                    <div class="d-flex align-items-center justify-content-center bg-primary-subtle rounded-circle w-50px h-50px mb-3">
+                                        <i class="uil uil-swatchbook text-primary lh-sm fs-4"></i>
+                                    </div>
+                                    <h4>Sketch file included</h4>
+                                    <p class="mb-0">The layout design sketch file is included with the template.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="getting-started">
+                    <div>
+                        <h2>Getting started</h2>
+                        <p class="lead">This guide will get you all set up and ready to go with this documentation template. We will cover how to get started quickly and view a couple of customization techniques.</p>
+                    </div>
+
+                    <div id="quickstart">
+                        <h3>Quickstart</h3>
+                        <p>First clone the GitHub repository, then cd into the project folder in a new terminal window and install the dependencies then run the development server. </p>
+<pre><code class="language-markup">git clone https://github.com/eriktailor/BootstrapDocsTemplate.git
+npm install && npm run dev</code></pre>
+                    </div>
+
+                    <div id="view-template">
+                        <h3>View template</h3>
+                        <p class="mb-4">Now if you go to <a href="http://localhost:8080" target="_blank">http://localhost:8080</a> you will see the frontend. The layout has a fixed sidebar on the left side, and a scrollable main content area at the middle. The sidebar contains a navigation menu, which links are dynamically generated from each section block's title. There's also a lightweight footer at the bottom of the page.</p>
+                        <img class="img-fluid rounded-4" src="./assets/browser_mockup_1-59782bb3.jpg" alt="Browser mockup">
+                    </div>
+
+                    <div id="used-sources">
+                        <h3>Used sources</h3>
+                        <p>The following free resources were used along with this project:</p>
+                        <ul>
+                            <li><a target="_blank" href="https://getbootstrap.com">Bootstrap</a> - the latest version, Bootstrap 5 gives the base structure of the template</li>
+                            <li><a target="_blank" href="https://vitejs.dev">Vite.js</a> - a new generation frontend developer tooling</li>
+                            <li><a target="_blank" href="https://sass-lang.com">Sass</a> - the most popular css preprocessor to write advanced styles</li>
+                            <li><a target="_blank" href="https://github.com">GitHub</a> - version controller tool, used to maintain the updates of the project</li>
+                            <li><a target="_blank" href="https://iconscout.com/unicons">Unicons</a> - a free collection of scaleable and colorable svg UI icons</li>
+                            <li><a target="_blank" href="https://prismjs.com">Prism.js</a> - a javascript library for syntax highlighting code blocks</li>
+                        </ul>
+                    </div>
+
+                    <div id="folder-structure">
+                        <h3>Folder structure</h3>
+                        <p>The <b>dist</b> folder contains the built files for production. The <b>src</b> folder contains all of the source files. The <b>design</b> folder contains the editable <a href="https://www.sketch.com/">Sketch</a> file of the design. Below you can see the structure of the main project folder:</p>
+                        <div class="card p-4 mb-3">
+                            <button class="btn text-start border-0 w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#folderDist" aria-expanded="true" aria-controls="folderDist">
+                                <i class="uil uil-folder text-primary fs-5"></i>
+                                dist
+                            </button>
+                            <div class="collapse show border-start ps-3 ms-2" id="folderDist">
+                                <div class="w-100">
+                                    <i class="uil uil-file-alt text-primary fs-5"></i>
+                                    index.html
+                                </div>
+                                <div class="w-100">
+                                    <i class="uil uil-file-alt text-primary fs-5"></i>
+                                    styles.css
+                                </div>
+                            </div>
+                            <button class="btn text-start border-0 w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#folderSrc" aria-expanded="true" aria-controls="folderSrc">
+                                <i class="uil uil-folder text-primary fs-5"></i>
+                                src
+                            </button>
+                            <div class="collapse show border-start ps-3 ms-2" id="folderSrc">
+                                <button class="btn text-start border-0 w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#folderScss" aria-expanded="true" aria-controls="folderScss">
+                                    <i class="uil uil-folder text-primary fs-5"></i>
+                                    scss
+                                </button>
+                                <div class="collapse show border-start ps-3 ms-2" id="folderScss">
+                                    <div class="w-100">
+                                        <i class="uil uil-file-alt text-primary fs-5"></i>
+                                        components.scss
+                                    </div>
+                                    <div class="w-100">
+                                        <i class="uil uil-file-alt text-primary fs-5"></i>
+                                        typography.scss
+                                    </div>
+                                    <div class="w-100">
+                                        <i class="uil uil-file-alt text-primary fs-5"></i>
+                                        styles.scss
+                                    </div>
+                                </div>
+                                <button class="btn text-start border-0 w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#folderJs" aria-expanded="false" aria-controls="folderJs">
+                                    <i class="uil uil-folder text-primary fs-5"></i>
+                                    js
+                                </button>
+                                <div class="collapse border-start ps-3 ms-2" id="folderJs">
+                                    <div class="w-100">
+                                        <i class="uil uil-file-alt text-primary fs-5"></i>
+                                        admin.js
+                                    </div>
+                                    <div class="w-100">
+                                        <i class="uil uil-file-alt text-primary fs-5"></i>
+                                        scripts.js
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn text-start border-0 w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#folderDesign" aria-expanded="false" aria-controls="folderDesign">
+                                <i class="uil uil-folder text-primary fs-5"></i>
+                                design
+                            </button>
+                            <div class="collapse border-start ps-3 ms-2" id="folderDesign">
+                                <div class="w-100">
+                                    <i class="uil uil-file-alt text-primary fs-5"></i>
+                                    layout.sketch
+                                </div>
+                                <div class="w-100">
+                                    <i class="uil uil-file-alt text-primary fs-5"></i>
+                                    logos.psd
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="dependencies">
+                        <h3>Dependencies</h3>
+                        <p>There are a few <b>npm</b> dependencies need to be installed before serving the project:</p>
+                        <ul class="mb-5">
+                            <li><a target="_blank" href="https://popper.js.org">popperjs</a> - a positioning solution for tooltips and popovers</li>
+                            <li><a target="_blank" href="https://github.com/postcss/autoprefixer">autoprefixer</a> - a postcss plugin that adds vendor prefixes to the output css files</li>
+                            <li><a target="_blank" href="https://getbootstrap.com">bootstrap</a> - latest version of Bootstrap, what is a powerful and extensible frontend toolkit</li>
+                            <li><a target="_blank" href="https://postcss.org/">postcss</a> - a tool for transforming CSS with JavaScript (required for using autoprefixer)</li>
+                        </ul>
+                        <p class="alert bg-primary-subtle text-primary" role="alert">
+                            <b class="text-primary">Note:</b> to be able to install these packages via npm, you need to have Node.js installed on your system.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="core-concepts">
+                    <div>
+                        <h2>Core concepts</h2>
+                        <p class="lead">And yet still further pondering while I jerked him now and then from between the whale and ship, which would <a href="#">threaten to jam</a> him still further pondering, I say saw that this situation of mine was the precise situation.</p>
+                    </div>
+
+                    <div id="coding-rules">
+                        <h3>Coding rules</h3>
+                        <p>True, you may say that, by exceeding caution, you may possibly escape these and the multitudinous other evil chances of life. But handle <a href="#">queequeg monkey-rope</a> heedfully as I would, sometimes he jerked it so, that I came very near sliding overboard.</p>
+<pre><code class="language-markup">&lt;section id=&quot;example&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;h2&gt;My amazing title&lt;/h2&gt;
+        &lt;p&gt;This is the description text&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/section&gt;</code></pre>
+                    <p>True, you may say that, by exceeding caution, you may possibly escape these and the multitudinous other evil chances of life. But handle Queequeg's monkey-rope heedfully as I would, sometimes he jerked it so, that I came very near sliding overboard.</p>
+<pre><code class="language-javascript">$('#settingsCompanyLogo').change(function() {
+    let reader = new FileReader();
+    reader.onload = (e) => { 
+        $('#settingsCompanyLogoPreview').attr('src', e.target.result); 
+    }
+    reader.readAsDataURL(this.files[0]); 
+});</code></pre>
+                    </div>
+
+                    <div id="available-tags">
+                        <h3>Available tags</h3>
+                        <p>You can use these html5 tags to define your layout base:</p>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tag</th>
+                                        <th scope="col">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="badge bg-primary-subtle text-primary">html</span></td>
+                                        <td>Represents the root of an HTML document.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-primary-subtle text-primary">article</span></td>
+                                        <td>It specifies independent, self-contained content.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-primary-subtle text-primary">section</span></td>
+                                        <td>It defines a section in a document, similar as a content div.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-primary-subtle text-primary">header</span></td>
+                                        <td>It represents a container for introductory content or a set of navigational links.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-primary-subtle text-primary">footer</span></td>
+                                        <td>This tag defines a footer for a document or section.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div id="create-project">
+                        <h3>Create project</h3>
+                        <p>Follow these steps to create a brand new project to your portfolio:</p>
+                        <ol class="mb-4">
+                            <li>If you are going to use a passage of Lorem Ipsum</li>
+                            <li>All the Lorem Ipsum generators on the Internet tend to repeat</li>
+                            <li>It uses a dictionary of over 200 Latin words, combined with a handful</li>
+                            <li>In most cases, he, one way or other, has this with a plurality of other mortals</li>
+                            <li>If your banker breaks, you snap; if your apothecary by mistake sends you poison</li>
+                        </ol>
+                        <a class="btn btn-outline-primary" href="#integrations">Check out integrations</a>
+                    </div>
+
+                    
+                </section>
+                <section id="advanced">
+                    <div>
+                        <h2>Advanced</h2>
+                        <p class="lead">Nor could I possibly forget that, do what I would, I only had the management.</p>
+                    </div>
+
+                    <div id="integrations">
+                        <h3>Integrations</h3>
+                        <p class="mb-4">So strongly and metaphysically did I conceive of my situation then, that while earnestly watching his motions, I seemed distinctly to perceive that my own individuality was now merged in a joint stock company of two; that my free will had received.</p>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-3 g-sm-4">
+                            <div class="col">
+                                <div class="card h-100 p-4">
+                                    <img class="mb-4" src="./assets/sketch_logo-247b2358.png" alt="Sketch" width="50" height="50">
+                                    <h4>Sketch</h4>
+                                    <p class="small mb-0">Mac app for designers to create, team up, prototype, and more.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-4">
+                                    <img class="mb-4" src="data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAAGNbWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAEAAAABAAAGTAAAAX0AAgAAAAEAAAG1AAAElwAAAEJpaW5mAAAAAAACAAAAGmluZmUCAAAAAAEAAGF2MDFDb2xvcgAAAAAaaW5mZQIAAAAAAgAAYXYwMUFscGhhAAAAABppcmVmAAAAAAAAAA5hdXhsAAIAAQABAAAAw2lwcnAAAACdaXBjbwAAABRpc3BlAAAAAAAAAHgAAAB4AAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAMAAAAABNjb2xybmNseAABAA0ABoAAAAAOcGl4aQAAAAABCAAAAAxhdjFDgQAcAAAAADhhdXhDAAAAAHVybjptcGVnOm1wZWdCOmNpY3A6c3lzdGVtczphdXhpbGlhcnk6YWxwaGEAAAAAHmlwbWEAAAAAAAAAAgABBAECgwQAAgQBBYYHAAAGHG1kYXQSAAoGGBm792FQMooJEZAGGFDZimVGpHByUWA9kD/eIhN1BTNXwEv5N2Wt4e7/Xl7IGJOUqe15SnmQxS9azQe+Qwst2QNLS6s0QY3x9CqcB6O2Ajb1y0/oE7tOcrhkrKGd55vdYxQWRizDwwKcp//YtRCffOqRhDY/pBOCjjnkw/8pcOIL2pD7IN2B71mvxfY5ZRBsTI5a4zjZX7lI1FWmjz0gI/1S8hBa79vc1yT9209fAzXv7GYMNLfJ3+WUWIThI3cWQYs3mx8LswSiYgQMb+0KEU+7YTuYOIBSgNyonXBfLisVxdHvO7peelWsfaI9yl9FtnGB3KCOjdWwjEjFRdqsy3BZ8eLWJWYhr8Q+ENMWSMROl/2CHlAODAPD5f6sklLn/Fzyl0xwdCbg3wyW7RxmDeT8mQnk8WSLdvF6cud0njG+rilkMg9XnyTa8lpg29qhvemTQfmcSVAeEzarIdbLjlY1E8aq6MJnf20TYcVGG6t2bZ6MD1uWWohSa4uKfqf5gyBVKWbz71NYN/IdCApoJZYC5eT5yFiIYMjLRQVKSWQc/LBjeBojjl8fV2Ax/nQcjWeeBwj0glY44iRk7WKHKJKlGUNUCDfKyccw7BU7NmN/vKVNh71L3+5iC1WQYR37S3BVZjqd1E/gE7w+7WAsCqi/NG8lcE/iIe+J1vG3lfpppXn+aHbthPX7uk4JdnNL+lW4G71CbWJR0je0lIW5HZE2pTpJaUm6EwcYcworzxeYKEAbm48aA2S7mqqbnhvb5TFZF5+Qs0JtSt5cyGlkR+rS0287PnXAEGbl5rHLx6BpoY39ZPNe2vxWwgNiB1kYWFdUxw9zizc2efShupq24Fe9HOHyX1TvgtPtvPnnmP4E/DkA8OMhY0ZJStXUtZVh3kdXe4cMZzB53+E5O2G5iZ0t7p36yQrX2Q8GVRkjC6gg2xx+/fFURTBbdD4Po4ZL42k+L/IARC/Tk2D4D2bjBDWx+y4K5QK8GagLg9QlVeO7ilX2WTFkGkPe8Rq38JmMFFG0CYU63Gee9rodlUGYgg51WT+l9mIfOiRy0dTFoGTOon68H749zjjXtiA439ja85MYzyQBLrXCAEWHSlJVNCoJVPgMbiOoxy2YsLvCGzSM7+0Ntcf9IPInD9Kv0KKrUXFSUQOpJPpghles0Rh9A/bOMjCqWb5Fw888P63ivhus83QSaJrKZkaAHLzXUeRsSFdlBYQPMyRGUHHr4v4069IiSMKqeP8gnDQYjRqs0sZqAoXU9ZA9Pn7prWEWsM6FwJTDjVlUrzwijqACPHOW04hCFaFxEhcMB6kM20XM/KLUEdl4X791UbTtmmV1SwxVf4IS5VpbkXLr34qFpVEzaXY4WYj0RywJlZSVP+b1j8Tall/gIx1eGfUrbCszqD5J8yqLIj1UdsZjYksWX3v4YEgc3F1fzfqeKbMQwI1KAjDQTcwmZLOWpTX0KD3vg8tWieqOH2l20E1ngMwCyJcegpMvmW7U6Vhd0oPGK3CWLiX3aBdoLLRROmEcskzPWbJL7kRx9AAZt2hOgBAy18zgpTy3gBIACgkYGbv3YICGg0Iy7QIRkAGGGGFA2Yo99QO/8nNezky1G2ebz4AP2vQPRsPFrnExolzmb4jZiC/dvCi5of/w3zBXxtPPouEmokFPBlU7cFuHv07xPDFH+5mnsYVuXv1+awjvMIH0bGSp8qTggILpPzG4vKbHt3LN3yI9UDMIr6r1O9xwIp/Ahpc5cFr4YOQn6HfhJlcnXtHFXIUIqHvIOdvz4mYvP9YtQukJ5Hf+GJE+LGE17zzt2MLMXuw4InN42K+lv5KHptlnoBP+UeuijqOwke0kHgVf4tKcbYAK6DxW1ZflZo3EhMAM4Cdj0BGIBQ6uaXwoDz0sBbrL7fljg+wfqMjmVZIzMhwQCi8sK4DbBCWFgsl6x7f2u3b2j9rlqlaFkdFfVTLLjxufSyEdSjtRX1IiP14ErbnjDwyeTOEuXrXxgz4Rr/a4d0uSn4lEkLv8SncgnS0Mt+PS1okJSPzVc+7pXwHRUjBTJBX8syyIvycL6cNcvSOqIA==" alt="GitHub" width="50" height="50">
+                                    <h4>GitHub</h4>
+                                    <p class="small mb-0">GitHub is a code hosting platform for version control.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-4">
+                                    <img class="mb-4" src="data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAAGNbWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAEAAAABAAACdgAAAqMAAgAAAAEAAAG1AAAAwQAAAEJpaW5mAAAAAAACAAAAGmluZmUCAAAAAAEAAGF2MDFDb2xvcgAAAAAaaW5mZQIAAAAAAgAAYXYwMUFscGhhAAAAABppcmVmAAAAAAAAAA5hdXhsAAIAAQABAAAAw2lwcnAAAACdaXBjbwAAABRpc3BlAAAAAAAAAHgAAAB4AAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAMAAAAABNjb2xybmNseAABAA0ABoAAAAAOcGl4aQAAAAABCAAAAAxhdjFDgQAcAAAAADhhdXhDAAAAAHVybjptcGVnOm1wZWdCOmNpY3A6c3lzdGVtczphdXhpbGlhcnk6YWxwaGEAAAAAHmlwbWEAAAAAAAAAAgABBAECgwQAAgQBBYYHAAADbG1kYXQSAAoGGBm792FQMrQBEZAGGFDdL98Z1WWynhUY4fMsLUsf1GMRbrvERKNneTmfGtcBXr6zF6NxjY87RkFNxrXUzEGNRbPz4Sv0gkLtskjdxyjebHi8VqljeiEV530s5B/ScR2WW/zCqyGT44q6T6jwKt/SSD5GxVg1koYiNmA/NC8LqDBpnpfXTu7G17tHPh6TjYOstwVWKpBIXenzk3f8fex56+azkDoUEspLuE9hyBzoBMWLauubm6aGb+OmH/rFEgAKCRgZu/dggIaDQjKTBURkAGGGGEDdSqyASSy/24EvYwocA9tiNdMDzNCTDhe/mxVkYErF5A++V/x+gbhXWiX3e+CGj7ndY+4WW5DpHPl7217tXvPhSGhD564xp5tTfny4JD47sSJ4UMsZA17LbygCnaU34U345Fk/IL1J6unAa/6WyGsDeSwRvFpICKgm8bS8LbmpujYUEWZ7Un5rdJyNHE+ppdnxH+HUK/3H/kgvIFb6jcZsVbMAve+UWy7QNw+YVG115RNa96laPJIsKHKt7ONtAHiWTXe1zC2vzc9KI7LRPABHDWla9Jlfip/ZIleUh6Axkfp2Yr0GpEirBJP+pVCjsP/6fHNyA3aDZPgZTJVSKoFZq3KDuYTEoj6W4I3nyeplRGcGSrrmC7sDCrlp/WAIBhYp6oD5BDUhc9EeTaf9YPQUBdH8vDrHjSmlWeogZdBnNwLqmDMBGVvoYY8MOVScVarrGvKDCQOUKAXOkGNe4stmxU1zU3kHG9p9qGkYiiD98t/3ppJl8IGggH6rn61C+7b4JmqsBj7bpR/m/bcjX5mSILsUcCzAn2Ff//0pBhghgKSR7mIeWkhTuV9pyEpYOmP+CZubYWTFkW8f2YhsuyC2K+iagwTmtSNT/QSp7CJT35tCi9LJIvavwvak55GW+SOcuYGDd97QMisG64fu2B+XZ88CQrSpvhPHW9EoqdY3BIGPI/q3h147NQVwHY875qdGpbVr1vdw/TqUTgAAAAAAARbmf4ZXnpn9MfRjbhPgdpHBLpFYbGHesB1xLdsHHEpBuOqFRNom6bhTAgCAXsLLhVLFJjPNapr1Q14HeXtbg07EkZkAlyJAL4q5isj+sHbk9fdNq/4GEOzyXHpsMqPjzYKHtgvxudKZNeUQ" alt="Trello" width="50" height="50">
+                                    <h4>Trello</h4>
+                                    <p class="small mb-0">It empowers your team to manage any type of project.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-4">
+                                    <img class="mb-4" src="data:image/avif;base64,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" alt="Slack" width="50" height="50">
+                                    <h4>Slack</h4>
+                                    <p class="small mb-0">Slack is a messaging app what brings people together.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-4">
+                                    <img class="mb-4" src="data:image/avif;base64,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" alt="Todoist" width="50" height="50">
+                                    <h4>Todoist</h4>
+                                    <p class="small mb-0">It keeps track of professional and personal projects.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 p-4">
+                                    <img class="mb-4" src="data:image/avif;base64,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" alt="Google Drive" width="50" height="50">
+                                    <h4>Google Drive</h4>
+                                    <p class="small mb-0">It is a cloud-based storage service to access files online.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer class="d-flex justify-content-between align-items-center py-3">
+                    <p class="small text-muted mb-0">© Copyright 2023. All rights reserved.</p>
+                    <div class="d-flex">
+                        <a class="lh-sm text-muted me-2" href="#" type="button">
+                            <i class="uil uil-twitter fs-4"></i>
+                        </a>
+                        <a class="lh-sm text-muted me-2" href="#" type="button">
+                            <i class="uil uil-dribbble fs-4"></i>
+                        </a>
+                        <a class="lh-sm text-muted" href="#" type="button">
+                            <i class="uil uil-github fs-4"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+
+            <svg class="bg-gradient-bulb-right position-fixed end-0 bottom-0" width="540px" height="731px" viewBox="0 0 540 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <rect id="path-_mk43jvm0v-1" x="0" y="0" width="540" height="731"></rect>
+                    <radialGradient cx="50%" cy="53.2372883%" fx="50%" fy="53.2372883%" r="44.5431888%" id="radialGradient-_mk43jvm0v-3">
+                        <stop stop-color="#7C12F8" offset="0%"></stop>
+                        <stop stop-color="#7C12F8" stop-opacity="0" offset="100%"></stop>
+                    </radialGradient>
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Desktop-HD" transform="translate(-900.000000, -294.000000)">
+                        <g id="Oval" transform="translate(900.000000, 294.000000)">
+                            <mask id="mask-_mk43jvm0v-2" fill="white">
+                                <use xlink:href="#path-_mk43jvm0v-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <circle id="Oval-Copy" fill-opacity="0.14" fill="url(#radialGradient-_mk43jvm0v-3)" mask="url(#mask-_mk43jvm0v-2)" cx="623.5" cy="622.5" r="470"></circle>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"></script>
+    
+</body>
+
+</html>
